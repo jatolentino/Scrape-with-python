@@ -11,6 +11,6 @@ Analize whether there is a specific string included in all the text of that webs
 For instances.
 "Join our company, we provide health insurance and other type of ..."
 
-- We want that health insurance is present in the website, but what if there is something like "we don't provide health insurance"
+- It is required that the phrase "health insurance" is present in the website, but what if there is something like "we don't provide health insurance"
 So the string "don't" must be detected in a range of strings close to the phrase "health insurance", consequently the algorythm will discard this website if it finds that they don't provide self insurance, and will output a website that does provide that insurance.
 
