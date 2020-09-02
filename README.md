@@ -1,5 +1,6 @@
 # Scrape-with-python
 Based on superhero code (https://gist.github.com/scrapehero/352286d0f9dee87990cd45c3f979e7cb)
+
 Scrape and output urls bypassing certain pages that have a particular string.
 For instances :
 Input a jobx in the search pan, then visit all the urls like the list below.
