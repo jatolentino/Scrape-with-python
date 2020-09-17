@@ -136,7 +136,7 @@ if __name__ == "__main__":
                         req = urllib.request.Request(webur,data=None,headers={'User-Agent':'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36'})
                         sauce = urllib.request.urlopen(req).read()
                         soup=BeautifulSoup(sauce,'html.parser')
-                        pattern=re.compile(r'sponsorship?[\S]',re.IGNORECASE)#'Risk', 'risk.', 'risk'  but NOT 'risky'
+                        pattern=re.compile(r'sponsorship?[\S]',re.IGNORECASE)#'Sponsorship', 'sponsorship.', 'sponsorship'  but NOT 'sponsorships'
                         no_of_words=6
                         for elem in soup(text=pattern):
                                 str=elem.parent.text
