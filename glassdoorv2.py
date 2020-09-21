@@ -1,3 +1,4 @@
+# Begins superhero code https://gist.github.com/scrapehero/352286d0f9dee87990cd45c3f979e7cb 
 from lxml import html, etree
 from bs4 import BeautifulSoup
 import requests
@@ -136,6 +137,9 @@ if __name__ == "__main__":
                         req = urllib.request.Request(webur,data=None,headers={'User-Agent':'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36'})
                         sauce = urllib.request.urlopen(req).read()
                         soup=BeautifulSoup(sauce,'html.parser')
+# Ends superhero code
+			
+			# Begins algorythm to count words
                         pattern=re.compile(r'sponsorship?[\S]',re.IGNORECASE)#'Sponsorship', 'sponsorship.', 'sponsorship'  but NOT 'sponsorships'
                         no_of_words=6
                         for elem in soup(text=pattern):
