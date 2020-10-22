@@ -168,6 +168,5 @@ if __name__ == "__main__":
                                                 else:
                                                         print("Your search for %s, in %s does not match any jobs"%(keyword,place))
 #print(scraped_data.get("Url"))
-#ur=scraped_data[1]
 #print(ur.get("Url"))
 #print(len(scraped_data))
