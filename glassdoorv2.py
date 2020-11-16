@@ -9,7 +9,7 @@ import unicodecsv as csv
 import argparse
 import json
 import urllib.request
-## try this proxies
+## try this proxies 
 proxy = {
  "http": "http://80.187.140.26.53:8080",
  "https": "http://80.187.140.26:8080",
@@ -158,7 +158,7 @@ if __name__ == "__main__":
                                                 '''if scraped_data:
                                                         for data in scraped_data:
                                                                 scraped_data.remove(data)
-                                                else:'''
+                                                else: '''
                                                 None
                                         else:
                                                 print(webur)#print(varstri)
