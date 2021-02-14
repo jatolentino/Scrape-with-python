@@ -14,4 +14,3 @@ For instances.
 
 - It is required that the phrase "health insurance" is present in the website, but what if there is something like "we don't provide health insurance"
 So the string "don't" must be detected in a range of strings close to the phrase "health insurance", consequently the algorythm will discard this website if it finds that they don't provide self insurance, and will output a website that does provide that insurance.
-
