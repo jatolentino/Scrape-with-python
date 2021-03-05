@@ -56,7 +56,6 @@ def parse(keyword, place):
 			'locId': place_id,
 			'jobType': ''
 		}
-
 		job_listings = []
 		if place_id:
 			response = requests.post(job_litsting_url, proxies=proxy, headers=headers, data=data)
