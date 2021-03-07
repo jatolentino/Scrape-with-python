@@ -153,6 +153,9 @@ if __name__ == "__main__":
                                         if start<0:
                                                 start=0
                                         varstri = ' '.join(list[start:end]).strip()
+					
+					# Skip words like unable, not, without...
+										
                                         if re.compile(r'no[\.| ] |unable|no|not[\.| ] | without[\.| ] |without|not|requiring|don\'t| don\'t[\.| ]',re.IGNORECASE).search(varstri):
                                                 #None#print('yes')
                                                 '''if scraped_data:
