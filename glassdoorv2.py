@@ -9,7 +9,7 @@ import unicodecsv as csv
 import argparse
 import json
 import urllib.request
-## try this proxies 
+## try this proxies to avoid being blocked
 proxy = {
  "http": "http://80.187.140.26.53:8080",
  "https": "http://80.187.140.26:8080",
