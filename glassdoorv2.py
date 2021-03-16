@@ -138,7 +138,6 @@ if __name__ == "__main__":
                         sauce = urllib.request.urlopen(req).read()
                         soup=BeautifulSoup(sauce,'html.parser')
 # Ends superhero code
-			
 			# Begins algorythm to count words
                         pattern=re.compile(r'sponsorship?[\S]',re.IGNORECASE)#'Sponsorship', 'sponsorship.', 'sponsorship'  but NOT 'sponsorships'
                         no_of_words=6
