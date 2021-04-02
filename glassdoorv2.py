@@ -159,6 +159,7 @@ if __name__ == "__main__":
                                                 '''if scraped_data:
                                                         for data in scraped_data:
                                                                 scraped_data.remove(data)
+								
                                                 else: '''
                                                 None
                                         else:
