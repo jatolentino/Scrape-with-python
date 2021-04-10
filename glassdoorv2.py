@@ -27,6 +27,7 @@ def parse(keyword, place):
 				'Connection': 'keep-alive'
 	}
 
+	
 	location_headers = {
 		'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.01',
 		'accept-encoding': 'gzip, deflate, sdch, br',
