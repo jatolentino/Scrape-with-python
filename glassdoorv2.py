@@ -42,6 +42,7 @@ def parse(keyword, place):
 	data = {"term": place,
 			"maxLocationsToReturn": 10}
 
+	
 	location_url = "https://www.glassdoor.co.in/findPopularLocationAjax.htm?"
 	try:
 		# Getting location id for search location
